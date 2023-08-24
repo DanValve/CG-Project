@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Examples">
+      <UniqueIdentifier>{643CF628-5009-5134-7922-3FDC654E86C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Examples\Project Scenes">
+      <UniqueIdentifier>{4B637F2A-B79A-C7C1-C0A4-2BE52C5BEEBA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Examples\Project Scenes\Cellular Automata">
+      <UniqueIdentifier>{4A884E94-B6A2-B135-FFC4-C1C96B1ED93C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Examples\Project Scenes\Low Poly Terrain">
+      <UniqueIdentifier>{65234F21-51A0-4264-7A1D-437866F9DEF7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Examples\Project Scenes\Map">
+      <UniqueIdentifier>{182BE156-8438-0F3D-0D1F-0B28792BDBF3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Examples\Project Scenes\Voxel Terrain">
+      <UniqueIdentifier>{9D9CB954-0961-B844-D2C6-E80E3E4A547A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{B3F7140E-1F0C-3DBF-E88D-E01E546139F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{4FA5880B-BBAE-887C-442A-9F7CB032947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\SceneShowcase">
+      <UniqueIdentifier>{2928CDCA-953E-CB60-DEB5-56824A0B9CE8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\textures">
+      <UniqueIdentifier>{227C1C83-0EDF-AB27-B764-E4DDA3A677AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\textures\Blocks">
+      <UniqueIdentifier>{AFCA3D73-1B2C-1B81-A499-613310FA5140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\textures\Blocks\Sets">
+      <UniqueIdentifier>{3D9024CF-29B5-734F-5200-59DF3E84726D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\textures\Others">
+      <UniqueIdentifier>{A6D11D92-1233-FB9F-9BA0-41520701325F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\textures\Realism">
+      <UniqueIdentifier>{7E604E99-6AEF-D762-130E-EC5DFF7BE808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\BlockData">
+      <UniqueIdentifier>{411FD834-ADDF-536B-761A-9DE8E2999847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\NoiseData">
+      <UniqueIdentifier>{74747BC6-E034-F7FC-A96F-407A15EF3BD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\customHashFunctions">
+      <UniqueIdentifier>{54B31103-C0EA-599A-C9F4-BDBD35AB8093}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Examples\Project Scenes\Cellular Automata\CellularAutomata.h">
+      <Filter>Examples\Project Scenes\Cellular Automata</Filter>
+    </ClInclude>
+    <ClInclude Include="Examples\Project Scenes\Low Poly Terrain\LowPolyTerrain.h">
+      <Filter>Examples\Project Scenes\Low Poly Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Examples\Project Scenes\Map\Map.h">
+      <Filter>Examples\Project Scenes\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Examples\Project Scenes\Voxel Terrain\ShowcaseWorld.h">
+      <Filter>Examples\Project Scenes\Voxel Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Examples\Project Scenes\Voxel Terrain\VoxelTerrain.h">
+      <Filter>Examples\Project Scenes\Voxel Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneMenu.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BlockData\BlockData.h">
+      <Filter>src\BlockData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NoiseData\NoiseData.h">
+      <Filter>src\NoiseData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\customHashFunctions\CustomHashFunctions.h">
+      <Filter>src\customHashFunctions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Examples\Project Scenes\Cellular Automata\CellularAutomata.cpp">
+      <Filter>Examples\Project Scenes\Cellular Automata</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\Project Scenes\Low Poly Terrain\LowPolyTerrain.cpp">
+      <Filter>Examples\Project Scenes\Low Poly Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\Project Scenes\Map\Map.cpp">
+      <Filter>Examples\Project Scenes\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\Project Scenes\Voxel Terrain\ShowcaseWorld.cpp">
+      <Filter>Examples\Project Scenes\Voxel Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\Project Scenes\Voxel Terrain\VoxelTerrain.cpp">
+      <Filter>Examples\Project Scenes\Voxel Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneMenu.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BlockData\BlockData.cpp">
+      <Filter>src\BlockData</Filter>
+    </ClCompile>
+    <ClCompile Include="src\customHashFunctions\CustomHashFunctions.cpp">
+      <Filter>src\customHashFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\Project Scenes\EntryPoint.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\SceneShowcase\CellularAutomata.PNG">
+      <Filter>res\SceneShowcase</Filter>
+    </Image>
+    <Image Include="res\SceneShowcase\MapScene.PNG">
+      <Filter>res\SceneShowcase</Filter>
+    </Image>
+    <Image Include="res\SceneShowcase\PolyTerrain.PNG">
+      <Filter>res\SceneShowcase</Filter>
+    </Image>
+    <Image Include="res\SceneShowcase\VoxelTerrain.PNG">
+      <Filter>res\SceneShowcase</Filter>
+    </Image>
+    <Image Include="res\textures\Blocks\Sets\Ores.png">
+      <Filter>res\textures\Blocks\Sets</Filter>
+    </Image>
+    <Image Include="res\textures\Blocks\Sets\Terrain - Copy.png">
+      <Filter>res\textures\Blocks\Sets</Filter>
+    </Image>
+    <Image Include="res\textures\Blocks\Sets\Terrain.png">
+      <Filter>res\textures\Blocks\Sets</Filter>
+    </Image>
+    <Image Include="res\textures\Blocks\coal.png">
+      <Filter>res\textures\Blocks</Filter>
+    </Image>
+    <Image Include="res\textures\Blocks\diamond.png">
+      <Filter>res\textures\Blocks</Filter>
+    </Image>
+    <Image Include="res\textures\Blocks\dirt.png">
+      <Filter>res\textures\Blocks</Filter>
+    </Image>
+    <Image Include="res\textures\Blocks\emerald.png">
+      <Filter>res\textures\Blocks</Filter>
+    </Image>
+    <Image Include="res\textures\Blocks\grass.png">
+      <Filter>res\textures\Blocks</Filter>
+    </Image>
+    <Image Include="res\textures\Blocks\sand.png">
+      <Filter>res\textures\Blocks</Filter>
+    </Image>
+    <Image Include="res\textures\Blocks\stone.png">
+      <Filter>res\textures\Blocks</Filter>
+    </Image>
+    <Image Include="res\textures\Others\clouds.png">
+      <Filter>res\textures\Others</Filter>
+    </Image>
+    <Image Include="res\textures\Realism\RealisticWood.png">
+      <Filter>res\textures\Realism</Filter>
+    </Image>
+    <Image Include="res\textures\Realism\RealisticWood_Specular.png">
+      <Filter>res\textures\Realism</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

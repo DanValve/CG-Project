@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug Win64|Win32">
+      <Configuration>Debug Win64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug Win64|x64">
+      <Configuration>Debug Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Win64|Win32">
+      <Configuration>Release Win64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Win64|x64">
+      <Configuration>Release Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{643CF628-5009-5134-7922-3FDC654E86C2}</ProjectGuid>
+    <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Examples</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Win64|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Win64|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug Win64|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release Win64|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\bin\windows-Debug-x86\Examples\</OutDir>
+    <IntDir>..\bin\intermediates\windows-Debug-x86\Examples\</IntDir>
+    <TargetName>Examples</TargetName>
+    <TargetExt>.exe</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Win64|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\bin\windows-Debug-x86_64\Examples\</OutDir>
+    <IntDir>..\bin\intermediates\windows-Debug-x86_64\Examples\</IntDir>
+    <TargetName>Examples</TargetName>
+    <TargetExt>.exe</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\bin\windows-Release-x86\Examples\</OutDir>
+    <IntDir>..\bin\intermediates\windows-Release-x86\Examples\</IntDir>
+    <TargetName>Examples</TargetName>
+    <TargetExt>.exe</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Win64|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\bin\windows-Release-x86_64\Examples\</OutDir>
+    <IntDir>..\bin\intermediates\windows-Release-x86_64\Examples\</IntDir>
+    <TargetName>Examples</TargetName>
+    <TargetExt>.exe</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>src;..\CobaltAPI\src;..\CobaltAPI\Dependencies\GLEW\include;..\CobaltAPI\Dependencies\GLFW\include;..\CobaltAPI\src\vendor;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>IF NOT EXIST ..\bin\windows-Debug-x86\Examples\res (mkdir ..\bin\windows-Debug-x86\Examples\res)
+IF NOT EXIST ..\bin\windows-Debug-x86\Examples\Examples (mkdir ..\bin\windows-Debug-x86\Examples\Examples)
+copy /B /Y ..\Examples\imgui.ini ..\bin\windows-Debug-x86\Examples
+xcopy /Q /E /Y /I ..\Examples\res ..\bin\windows-Debug-x86\Examples\res
+xcopy /Q /E /Y /I ..\Examples\Examples ..\bin\windows-Debug-x86\Examples\Examples</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug Win64|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>src;..\CobaltAPI\src;..\CobaltAPI\Dependencies\GLEW\include;..\CobaltAPI\Dependencies\GLFW\include;..\CobaltAPI\src\vendor;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>IF NOT EXIST ..\bin\windows-Debug-x86_64\Examples\res (mkdir ..\bin\windows-Debug-x86_64\Examples\res)
+IF NOT EXIST ..\bin\windows-Debug-x86_64\Examples\Examples (mkdir ..\bin\windows-Debug-x86_64\Examples\Examples)
+copy /B /Y ..\Examples\imgui.ini ..\bin\windows-Debug-x86_64\Examples
+xcopy /Q /E /Y /I ..\Examples\res ..\bin\windows-Debug-x86_64\Examples\res
+xcopy /Q /E /Y /I ..\Examples\Examples ..\bin\windows-Debug-x86_64\Examples\Examples</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>src;..\CobaltAPI\src;..\CobaltAPI\Dependencies\GLEW\include;..\CobaltAPI\Dependencies\GLFW\include;..\CobaltAPI\src\vendor;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <PostBuildEvent>
+      <Command>IF NOT EXIST ..\bin\windows-Release-x86\Examples\res (mkdir ..\bin\windows-Release-x86\Examples\res)
+IF NOT EXIST ..\bin\windows-Release-x86\Examples\Examples (mkdir ..\bin\windows-Release-x86\Examples\Examples)
+copy /B /Y ..\Examples\imgui.ini ..\bin\windows-Release-x86\Examples
+xcopy /Q /E /Y /I ..\Examples\res ..\bin\windows-Release-x86\Examples\res
+xcopy /Q /E /Y /I ..\Examples\Examples ..\bin\windows-Release-x86\Examples\Examples</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release Win64|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>src;..\CobaltAPI\src;..\CobaltAPI\Dependencies\GLEW\include;..\CobaltAPI\Dependencies\GLFW\include;..\CobaltAPI\src\vendor;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <PostBuildEvent>
+      <Command>IF NOT EXIST ..\bin\windows-Release-x86_64\Examples\res (mkdir ..\bin\windows-Release-x86_64\Examples\res)
+IF NOT EXIST ..\bin\windows-Release-x86_64\Examples\Examples (mkdir ..\bin\windows-Release-x86_64\Examples\Examples)
+copy /B /Y ..\Examples\imgui.ini ..\bin\windows-Release-x86_64\Examples
+xcopy /Q /E /Y /I ..\Examples\res ..\bin\windows-Release-x86_64\Examples\res
+xcopy /Q /E /Y /I ..\Examples\Examples ..\bin\windows-Release-x86_64\Examples\Examples</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Examples\Project Scenes\Cellular Automata\CellularAutomata.h" />
+    <ClInclude Include="Examples\Project Scenes\Low Poly Terrain\LowPolyTerrain.h" />
+    <ClInclude Include="Examples\Project Scenes\Map\Map.h" />
+    <ClInclude Include="Examples\Project Scenes\Voxel Terrain\ShowcaseWorld.h" />
+    <ClInclude Include="Examples\Project Scenes\Voxel Terrain\VoxelTerrain.h" />
+    <ClInclude Include="Scene\Scene.h" />
+    <ClInclude Include="Scene\SceneMenu.h" />
+    <ClInclude Include="src\BlockData\BlockData.h" />
+    <ClInclude Include="src\NoiseData\NoiseData.h" />
+    <ClInclude Include="src\customHashFunctions\CustomHashFunctions.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Examples\Project Scenes\Cellular Automata\CellularAutomata.cpp" />
+    <ClCompile Include="Examples\Project Scenes\EntryPoint.cpp" />
+    <ClCompile Include="Examples\Project Scenes\Low Poly Terrain\LowPolyTerrain.cpp" />
+    <ClCompile Include="Examples\Project Scenes\Map\Map.cpp" />
+    <ClCompile Include="Examples\Project Scenes\Voxel Terrain\ShowcaseWorld.cpp" />
+    <ClCompile Include="Examples\Project Scenes\Voxel Terrain\VoxelTerrain.cpp" />
+    <ClCompile Include="Scene\Scene.cpp" />
+    <ClCompile Include="Scene\SceneMenu.cpp" />
+    <ClCompile Include="src\BlockData\BlockData.cpp" />
+    <ClCompile Include="src\customHashFunctions\CustomHashFunctions.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\SceneShowcase\CellularAutomata.PNG" />
+    <Image Include="res\SceneShowcase\MapScene.PNG" />
+    <Image Include="res\SceneShowcase\PolyTerrain.PNG" />
+    <Image Include="res\SceneShowcase\VoxelTerrain.PNG" />
+    <Image Include="res\textures\Blocks\Sets\Ores.png" />
+    <Image Include="res\textures\Blocks\Sets\Terrain - Copy.png" />
+    <Image Include="res\textures\Blocks\Sets\Terrain.png" />
+    <Image Include="res\textures\Blocks\coal.png" />
+    <Image Include="res\textures\Blocks\diamond.png" />
+    <Image Include="res\textures\Blocks\dirt.png" />
+    <Image Include="res\textures\Blocks\emerald.png" />
+    <Image Include="res\textures\Blocks\grass.png" />
+    <Image Include="res\textures\Blocks\sand.png" />
+    <Image Include="res\textures\Blocks\stone.png" />
+    <Image Include="res\textures\Others\clouds.png" />
+    <Image Include="res\textures\Realism\RealisticWood.png" />
+    <Image Include="res\textures\Realism\RealisticWood_Specular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CobaltAPI\CobaltAPI.vcxproj">
+      <Project>{D4232C41-408E-E0B7-89CC-915DF575BE0C}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
